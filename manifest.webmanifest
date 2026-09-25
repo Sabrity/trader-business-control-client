@@ -2,7 +2,7 @@
   "name": "Trader Business Control — Client",
   "short_name": "Business Control",
   "description": "Read-only Trader Business Control dashboard",
-  "start_url": "./client.html",
+  "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
   "background_color": "#f4f7f7",
