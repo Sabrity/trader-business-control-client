@@ -470,7 +470,6 @@ render();
 
 (function initClientConnection(){
   const cfg=clientConfig();
-  document.getElementById('connectBtn').onclick=connectClient;
   if(cfg){
     loadOnline().then(ok=>{
       if(ok){hideConnectGate();if(onlineTimer)clearInterval(onlineTimer);onlineTimer=setInterval(()=>loadOnline(),5000);}
